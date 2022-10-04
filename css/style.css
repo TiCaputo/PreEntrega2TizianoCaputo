@@ -1,0 +1,182 @@
+main{
+    background-color: black;
+}
+footer{
+    background-image: url(/assets/img/pie.jpg);
+    text-align: center;
+    color: gainsboro;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+/*--------------INDEX------------*/
+
+.titulo__inicio{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0px;
+    color: gainsboro;
+}
+
+.subtitulo__inicio{
+    text-align: center;
+    background-color: black;
+    color: brown;
+    font-family: Courier New, monospace;
+}
+
+.lista__inicio{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(143, 143, 143);
+    font-family: Courier New, monospace;
+}
+
+.titulo__tarjetas{
+    text-align: center;
+    color: gainsboro;
+    font-size: 35px;
+}
+
+/*-----------NOSOTROS--------*/
+.nosotros__titulo{
+    text-align: center;
+    color: brown;
+    font-family: Courier New, monospace;
+}
+.nosotros__parrafo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+}
+.nosotros__texto{
+    text-align: center;
+    color: rgb(128, 125, 125);
+    font-style: Courier New, monospace;
+}
+.icons{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*TARJETA*/
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+.tarjeta {
+    margin: 4rem;
+    border: 2px solid gainsboro;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: gainsboro;
+    box-shadow: 0px 1px 10px gainsboro;
+
+    cursor: default;
+    transition: all 400ms ease;
+
+    
+}
+
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px gainsboro;
+    transform: translateY(-3%);
+}
+
+.btn {
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: gainsboro;
+}
+
+.btn:hover {
+    border: 2px solid gainsboro;
+    background-color: black;
+    color: gainsboro;
+}
+
+
+/*------------TIENDA-----------*/
+.titulo__tienda {
+    text-align: center;
+    color: gainsboro;
+}
+.parrafo__tienda{
+    text-align: center;
+    color: rgba(165, 42, 42, 0.644);
+}
+.parrafo__compra{
+    text-align: center;
+    color: gainsboro;
+    margin-top: 30px;
+}
+/*--------CONTACTOS-------*/
+.contacto {
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.contacto__main{
+    background-image: url(/assets/img/);
+}
+.titulo__contacto{
+    text-align: center;
+    color: gainsboro;
+}
+
+/*---------------PROMOS--------*/
+.titulo__promos {
+    color: gainsboro;
+    text-align: center;
+}
+
+.tarjeta__promos {
+    margin: 4rem;
+    border: 2px solid gainsboro;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.644);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tarjeta__combos{
+    margin-top: 25px;
+}
+
+.promos__parrafos{
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.promos__parrafo{
+    border-style: solid;
+    border-radius: 20px;
+    width: 700px;
+    margin-top: 75px;
+    margin-left: 59vh;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.644);
+    text-align: center;
+}
+
+
